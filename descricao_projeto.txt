@@ -1,0 +1,21 @@
+Abra o site https://www.tse.jus.br/eleitor/certidoes/certidao-de-quitacao-eleitoral e verifique os dados
+solicitados pelo TSE para emissão de uma certidão de quitação eleitoral.
+
+'''[Cadastro] Crie uma forma de cadastrar um eleitor fictício solicitando seus dados com a função input.
+Os dados devem ser armazenados em um arquivo de texto no formato CSV*.Além dos dados da certidão, 
+insira um dado extra que represente se a pessoa votou ou não na última eleição.'''
+
+'''[Validação] Crie uma forma de solicitar alguns dos dados da pessoa para verificar se é possível 
+emitir sua certidão. Busque a pessoa na sua base de dados (CSV) e verifique se ela está com sua 
+situação eleitoral regular (era obrigada a votar e votou ou não era obrigada a votar). 
+Caso a pessoa não se encontre no cadastro exiba a mensagem *"Eleitor(a) NÃO Cadastado(a)"*.
+Caso a pessoa não possa votar, informe-a de acordo. Caso a situação esteja regular, proceda com 
+o passo seguinte.''' 
+
+'''[Emissão da Certidão] Você deve gerar um arquivo que simule a Certidão de Quitação Eleitoral. 
+Você pode gerar uma simples "certidao.txt" sem problemas, o importante é usar os dados cadastrados 
+em uma mensagem que faça sentido. No entanto, existe um arquivo modelo no repositório do curso que 
+pode ser usado para gerar um documento com forma de certidão. Vale a pena tentar usar este modelo e 
+substituir os campos marcados com $ como $CAMPO$ pelo valor cadastrado correspondente. '''
+
+
